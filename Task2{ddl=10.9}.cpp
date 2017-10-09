@@ -57,13 +57,13 @@ int main() {
 }
 
 
-//正反冒泡+提前终止以减少运算量
+//正反冒泡+提前终止+记录最后位置以减少运算量
 
 void bu_sort(int *nums, int total) {
-	int indexs, i;
+	int last, i;
 	int lows = 0;
 	int high= total -1;
-	indexs = lows;
+	last = lows;
 
 	//*************************
 
@@ -72,20 +72,20 @@ void bu_sort(int *nums, int total) {
 		for (i = lows; i < high; i++) {
 			if (*(nums + i) > *(nums + i + 1)) {
 				swapint(nums + i, nums + i + 1);
-				indexs = i;
+				last = i;
 			}
 		}
 
-		high = indexs;
+		high = last;
 		//逆向冒泡
 		for (i = high; i > lows; i--) {
 			if (*(nums + i) < *(nums + i - 1)) {
 				swapint(nums + i, nums + i - 1);
-				indexs = i;
+				last = i;
 			}
 		}
 
-		lows = indexs;
+		lows = last;	
 	}
 
 }
