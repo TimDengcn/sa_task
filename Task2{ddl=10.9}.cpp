@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <malloc.h>
+#include <stdbool.h>
 
 void bu_sort(int *, int);
 void swapint(int *, int *);
-void rever(int *,int);
+void rever(int *, int);
 
 int main() {
 	char tem[10] = "0";
@@ -19,16 +20,30 @@ int main() {
 	//检测是否为数字,是则继续输入,不是则跳出循环
 
 	while (1) {
-		scanf_s("%s", tem, 10);
+		scanf("%s", tem);
 
-		for (int i = 0; *(tem+i) != '\0'; i++)
-			if (!isdigit(*(tem+i)))
+		if (*tem == '-') {
+			int i;
+			for (i = 1; *(tem + i) != '\0'; i++)
+				if (!isdigit(*(tem + i)))
+					isnum = false;
+
+			if (i<2)
 				isnum = false;
+
+		}
+		else {
+			int i;
+			for (i = 0; *(tem + i) != '\0'; i++)
+				if (!isdigit(*(tem + i)))
+					isnum = false;
+
+		}
 
 		if (isnum == false)
 			break;
 		else
-			sscanf_s(tem, "%d", nums + (total++));
+			sscanf(tem, "%d", nums + (total++));
 
 		nums = (int *)realloc(nums, sizeof(int)*(total + 1));
 	}
@@ -62,7 +77,7 @@ int main() {
 void bu_sort(int *nums, int total) {
 	int last, i;
 	int lows = 0;
-	int high= total -1;
+	int high = total - 1;
 	last = lows;
 
 	//*************************
@@ -85,14 +100,14 @@ void bu_sort(int *nums, int total) {
 			}
 		}
 
-		lows = last;	
+		lows = last;
 	}
 
 }
 
 //交换
 
-void swapint(int *numa , int *numb) {
+void swapint(int *numa, int *numb) {
 	int tem = 0;
 	tem = *numa;
 	*numa = *numb;
@@ -101,7 +116,7 @@ void swapint(int *numa , int *numb) {
 
 //倒置
 
-void rever(int * nums,int total) {
+void rever(int * nums, int total) {
 	for (int i = 0; i < total / 2; i++) {
 		int tem = *(nums + i);
 		*(nums + i) = *(nums + total - 1 - i);
