@@ -3,9 +3,11 @@
 #include <malloc.h>
 #include <stdbool.h>
 
+
 void bu_sort(int *, int);
 void swapint(int *, int *);
 void rever(int *, int);
+
 
 int main() {
 	char tem[10] = "0";
