@@ -106,7 +106,7 @@ void bu_sort(int *nums, int total) {
 
 	while (lows < high) {
 		for (i = lows; i < high; i++) {
-			if (*(nums + i) > *(nums + i + 1)) {
+			if (*(nums + i) < *(nums + i + 1)) {
 				swapint(nums + i, nums + i + 1);
 				last = i;
 			}
@@ -114,7 +114,7 @@ void bu_sort(int *nums, int total) {
 
 		high = last;
 		for (i = high; i > lows; i--) {
-			if (*(nums + i) < *(nums + i - 1)) {
+			if (*(nums + i) > *(nums + i - 1)) {
 				swapint(nums + i, nums + i - 1);
 				last = i;
 			}
