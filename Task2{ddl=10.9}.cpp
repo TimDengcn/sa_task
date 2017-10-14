@@ -19,7 +19,7 @@ int main() {
 
 	nums = (int *)malloc(sizeof(int));
 
-	//¼ì²âÊÇ·ñÎªÊı×Ö,ÊÇÔò¼ÌĞøÊäÈë,²»ÊÇÔòÌø³öÑ­»·
+	//æ£€æµ‹æ˜¯å¦ä¸ºæ•°å­—,æ˜¯åˆ™ç»§ç»­è¾“å…¥,ä¸æ˜¯åˆ™è·³å‡ºå¾ªç¯
 
 	while (1) {
 		scanf("%s", tem);
@@ -54,7 +54,7 @@ int main() {
 
 	bu_sort(nums, total);
 
-	printf("\n\n´ËÎªÅÅĞòºó½á¹û:\n");
+	printf("\n\næ­¤ä¸ºæ’åºåç»“æœ:\n");
 
 	for (int i = 0; i < total; i++) {
 		printf("%d	", nums[i]);
@@ -62,7 +62,7 @@ int main() {
 
 	rever(nums, total);
 
-	printf("\n\n´ËÎªµ¹ÖÃºó½á¹û:\n");
+	printf("\n\næ­¤ä¸ºå€’ç½®åç»“æœ:\n");
 
 	for (int i = 0; i < total; i++) {
 		printf("%d	", nums[i]);
@@ -74,7 +74,7 @@ int main() {
 }
 
 
-//Õı·´Ã°Åİ+ÌáÇ°ÖÕÖ¹+¼ÇÂ¼×îºóÎ»ÖÃÒÔ¼õÉÙÔËËãÁ¿
+//æ­£åå†’æ³¡+æå‰ç»ˆæ­¢+è®°å½•æœ€åä½ç½®ä»¥å‡å°‘è¿ç®—é‡
 
 void bu_sort(int *nums, int total) {
 	int last, i;
@@ -85,7 +85,7 @@ void bu_sort(int *nums, int total) {
 	//*************************
 
 	while (lows < high) {
-		//ÕıÏòÃ°Åİ
+		//æ­£å‘å†’æ³¡
 		for (i = lows; i < high; i++) {
 			if (*(nums + i) > *(nums + i + 1)) {
 				swapint(nums + i, nums + i + 1);
@@ -94,7 +94,7 @@ void bu_sort(int *nums, int total) {
 		}
 
 		high = last;
-		//ÄæÏòÃ°Åİ
+		//é€†å‘å†’æ³¡
 		for (i = high; i > lows; i--) {
 			if (*(nums + i) < *(nums + i - 1)) {
 				swapint(nums + i, nums + i - 1);
@@ -107,7 +107,7 @@ void bu_sort(int *nums, int total) {
 
 }
 
-//½»»»
+//äº¤æ¢
 
 void swapint(int *numa, int *numb) {
 	int tem = 0;
@@ -116,7 +116,7 @@ void swapint(int *numa, int *numb) {
 	*numb = tem;
 }
 
-//µ¹ÖÃ
+//å€’ç½®
 
 void rever(int * nums, int total) {
 	for (int i = 0; i < total / 2; i++) {
