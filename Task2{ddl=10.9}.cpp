@@ -16,6 +16,7 @@ int main() {
 	int total = 0;
 
 	//*************************
+	
 
 	nums = (int *)malloc(sizeof(int));
 
