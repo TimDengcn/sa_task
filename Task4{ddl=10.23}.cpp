@@ -24,7 +24,7 @@ void rever(void){
     }
     printf("%lld",numout);
 }
-//从字符串中找整数,使用了strtol函数 XD
+/*从字符串中找整数,使用了strtol函数 XD*/
 void int_select(void){
     long *num_long=(long *)malloc(sizeof(long));
     char sen_tem[100];
@@ -48,7 +48,7 @@ void int_select(void){
         printf("%ld   ",num_long[i]);
     }
 }
-//从字符串中找浮点数,使用了strtod函数 XD
+/*从字符串中找浮点数,使用了strtod函数 XD*/
 void float_select(void){
 
     double *num_double=(double *)malloc(sizeof(double));
