@@ -3,7 +3,6 @@
 
 //this program is used to get a 2-d array and transpose it
 
-
 void bu_sort(int *, int);
 void swapint(int *, int *);
 
@@ -81,7 +80,7 @@ int main(void) {
         printf("\n");
     }
     getchar();
-    getchar();
+    free(traned_arr);
     free(arr);
 }
 
