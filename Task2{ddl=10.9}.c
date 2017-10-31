@@ -24,7 +24,7 @@ int main() {
 	while (1) {
 		scanf("%s", tem);
 
-		if (*tem == '-')
+		if (*tem == '-'){
 			int i;
 			for (i = 1; *(tem + i) != '\0'; i++)
 				if (!isdigit(*(tem + i)))
@@ -56,7 +56,7 @@ int main() {
 
 	printf("\n\n此为排序后结果:\n");
 
-	for (int i = 0; i < total; i++) {
+	for(int i = 0; i < total; i++) {
 		printf("%d	", nums[i]);
 	}
 
@@ -64,7 +64,7 @@ int main() {
 
 	printf("\n\n此为倒置后结果:\n");
 
-	for (int i = 0; i < total; i++) {
+	for(int i = 0; i < total; i++) {
 		printf("%d	", nums[i]);
 	}
 
@@ -77,7 +77,7 @@ int main() {
 //正反冒泡+提前终止+记录最后位置以减少运算量
 
 void bu_sort(int *nums, int total) {
-	int last
+	int last;
 	int i;
 	int lows = 0;
 	int high = total - 1;
