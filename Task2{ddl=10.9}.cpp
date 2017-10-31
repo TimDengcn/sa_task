@@ -16,7 +16,6 @@ int main() {
 	int total = 0;
 
 	//*************************
-	
 
 	nums = (int *)malloc(sizeof(int));
 
@@ -25,7 +24,7 @@ int main() {
 	while (1) {
 		scanf("%s", tem);
 
-		if (*tem == '-') {
+		if (*tem == '-')
 			int i;
 			for (i = 1; *(tem + i) != '\0'; i++)
 				if (!isdigit(*(tem + i)))
