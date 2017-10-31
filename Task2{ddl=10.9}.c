@@ -77,7 +77,8 @@ int main() {
 //正反冒泡+提前终止+记录最后位置以减少运算量
 
 void bu_sort(int *nums, int total) {
-	int last, i;
+	int last
+	int i;
 	int lows = 0;
 	int high = total - 1;
 	last = lows;
