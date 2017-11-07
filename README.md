@@ -8,3 +8,4 @@
 - TASK3{ddl=10.16}
 - TASK4{ddl=10.23}
 - TASK5{ddl=10.31}
+- TASK6{ddl=11.6}
