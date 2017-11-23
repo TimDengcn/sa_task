@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Code/clion/cclass/Joseph.c
+main.h
+E:/Code/clion/cclass/main.h
+
+E:/Code/clion/cclass/create.c
+main.h
+E:/Code/clion/cclass/main.h
+
+E:/Code/clion/cclass/main.c
+main.h
+E:/Code/clion/cclass/main.h
+
+E:/Code/clion/cclass/main.h
+malloc.h
+-
+stdio.h
+-
+
