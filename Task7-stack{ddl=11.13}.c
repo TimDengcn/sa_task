@@ -9,6 +9,7 @@ typedef struct stack{
 int gettop(stack * stackhead);
 int pop(stack * stackhead);
 void push(int element,stack * stackhead);
+int isempty(stack * stackhead);
 stack * stackcreate();
 
 int main(){
@@ -19,9 +20,22 @@ int main(){
     push(56,mystack);
 
     printf("%d\n",gettop(mystack));
-    printf("%d\n",pop(mystack));
-    printf("%d\n",pop(mystack));
-    printf("%d\n",pop(mystack));
+    printf("%d\n",gettop(mystack));   
+    if(!isempty(mystack)){
+        printf("%d\n",pop(mystack));
+    }
+    if(!isempty(mystack)){
+        printf("%d\n",pop(mystack));
+    }
+    if(!isempty(mystack)){
+        printf("%d\n",pop(mystack));
+    }
+    if(!isempty(mystack)){
+        printf("%d\n",pop(mystack));
+    }
+    if(!isempty(mystack)){
+        printf("%d\n",gettop(mystack));
+    }
 
     return 0;
 }
@@ -34,9 +48,16 @@ int gettop(stack * stackhead){
     return element;
 }
 
+int isempty(stack * stackhead){
+    if(stackhead->next==NULL){
+        return 1;
+    }else{
+        return 0;
+    }
+}
 
 int pop(stack * stackhead){
-    int element;
+    int element;    
     stack *stacktemp = stackhead->next->next;
 
     element=stackhead->next->element;
@@ -45,6 +66,7 @@ int pop(stack * stackhead){
 
     return element;
 }
+
 void push(int element,stack * stackhead){
     stack* stack1=(stack*)malloc(sizeof(stack));
 

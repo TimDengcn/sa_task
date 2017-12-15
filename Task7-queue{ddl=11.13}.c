@@ -9,6 +9,7 @@ typedef struct queue{
 int getfront(queue * queuehead);
 int dequeue(queue * queuehead);
 void enqueue(int element,queue * queuehead);
+int isempty(queue * queuehead);
 queue * queuecreate();
 
 int main(){
@@ -20,9 +21,18 @@ int main(){
 
     printf("%d\n",getfront(myqueue));
     printf("%d\n",dequeue(myqueue));
-    printf("%d\n",dequeue(myqueue));
-    printf("%d\n",dequeue(myqueue));
-
+    if(!isempty(myqueue)){
+        printf("%d\n",dequeue(myqueue));
+    }
+    if(!isempty(myqueue)){
+        printf("%d\n",dequeue(myqueue));
+    }
+    if(!isempty(myqueue)){
+        printf("%d\n",dequeue(myqueue));
+    }
+    if(!isempty(myqueue)){
+        printf("%d\n",dequeue(myqueue));
+    }
     return 0;
 }
 
@@ -34,6 +44,13 @@ int getfront(queue * queuehead){
     return element;
 }
 
+int isempty(queue * queuehead){
+    if(queuehead->next==NULL){
+        return 1;
+    }else{
+        return 0;
+    }
+}
 
 int dequeue(queue * queuehead){
     int element;

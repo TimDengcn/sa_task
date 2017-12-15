@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\apps\CLion\ch-0\172.4343.16\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\apps\CLion\ch-0\172.4343.16\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Code\clion\cclass
+CMAKE_SOURCE_DIR = E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Code\clion\cclass\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cclass.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/cclass.dir/flags.make
 
 CMakeFiles/cclass.dir/main.c.obj: CMakeFiles/cclass.dir/flags.make
 CMakeFiles/cclass.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Code\clion\cclass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cclass.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cclass.dir\main.c.obj   -c E:\Code\clion\cclass\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cclass.dir/main.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cclass.dir\main.c.obj   -c E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\main.c
 
 CMakeFiles/cclass.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cclass.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Code\clion\cclass\main.c > CMakeFiles\cclass.dir\main.c.i
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\main.c > CMakeFiles\cclass.dir\main.c.i
 
 CMakeFiles/cclass.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cclass.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Code\clion\cclass\main.c -o CMakeFiles\cclass.dir\main.c.s
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\main.c -o CMakeFiles\cclass.dir\main.c.s
 
 CMakeFiles/cclass.dir/main.c.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/cclass.dir/main.c.obj.provides.build: CMakeFiles/cclass.dir/main.c.ob
 
 CMakeFiles/cclass.dir/create.c.obj: CMakeFiles/cclass.dir/flags.make
 CMakeFiles/cclass.dir/create.c.obj: ../create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Code\clion\cclass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cclass.dir/create.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cclass.dir\create.c.obj   -c E:\Code\clion\cclass\create.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cclass.dir/create.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cclass.dir\create.c.obj   -c E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\create.c
 
 CMakeFiles/cclass.dir/create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cclass.dir/create.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Code\clion\cclass\create.c > CMakeFiles\cclass.dir\create.c.i
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\create.c > CMakeFiles\cclass.dir\create.c.i
 
 CMakeFiles/cclass.dir/create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cclass.dir/create.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Code\clion\cclass\create.c -o CMakeFiles\cclass.dir\create.c.s
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\create.c -o CMakeFiles\cclass.dir\create.c.s
 
 CMakeFiles/cclass.dir/create.c.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/cclass.dir/create.c.obj.provides.build: CMakeFiles/cclass.dir/create.
 
 CMakeFiles/cclass.dir/Joseph.c.obj: CMakeFiles/cclass.dir/flags.make
 CMakeFiles/cclass.dir/Joseph.c.obj: ../Joseph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Code\clion\cclass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cclass.dir/Joseph.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cclass.dir\Joseph.c.obj   -c E:\Code\clion\cclass\Joseph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cclass.dir/Joseph.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cclass.dir\Joseph.c.obj   -c E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\Joseph.c
 
 CMakeFiles/cclass.dir/Joseph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cclass.dir/Joseph.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Code\clion\cclass\Joseph.c > CMakeFiles\cclass.dir\Joseph.c.i
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\Joseph.c > CMakeFiles\cclass.dir\Joseph.c.i
 
 CMakeFiles/cclass.dir/Joseph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cclass.dir/Joseph.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Code\clion\cclass\Joseph.c -o CMakeFiles\cclass.dir\Joseph.c.s
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\Joseph.c -o CMakeFiles\cclass.dir\Joseph.c.s
 
 CMakeFiles/cclass.dir/Joseph.c.obj.requires:
 
@@ -144,7 +144,7 @@ cclass.exe: CMakeFiles/cclass.dir/build.make
 cclass.exe: CMakeFiles/cclass.dir/linklibs.rsp
 cclass.exe: CMakeFiles/cclass.dir/objects1.rsp
 cclass.exe: CMakeFiles/cclass.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Code\clion\cclass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable cclass.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable cclass.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cclass.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/cclass.dir/clean:
 .PHONY : CMakeFiles/cclass.dir/clean
 
 CMakeFiles/cclass.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Code\clion\cclass E:\Code\clion\cclass E:\Code\clion\cclass\cmake-build-debug E:\Code\clion\cclass\cmake-build-debug E:\Code\clion\cclass\cmake-build-debug\CMakeFiles\cclass.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know} E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know} E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug E:\Code\GitLibs\sa_task\FALSETask7{ddl=un_know}\cmake-build-debug\CMakeFiles\cclass.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cclass.dir/depend
 

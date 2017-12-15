@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Code/clion/cclass/Joseph.c" "E:/Code/clion/cclass/cmake-build-debug/CMakeFiles/cclass.dir/Joseph.c.obj"
-  "E:/Code/clion/cclass/create.c" "E:/Code/clion/cclass/cmake-build-debug/CMakeFiles/cclass.dir/create.c.obj"
-  "E:/Code/clion/cclass/main.c" "E:/Code/clion/cclass/cmake-build-debug/CMakeFiles/cclass.dir/main.c.obj"
+  "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/Joseph.c" "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/CMakeFiles/cclass.dir/Joseph.c.obj"
+  "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/create.c" "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/CMakeFiles/cclass.dir/create.c.obj"
+  "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/main.c" "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/CMakeFiles/cclass.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

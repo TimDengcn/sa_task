@@ -8,93 +8,93 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/Code/clion/cclass/cmake-build-debug"/>
+				<Option working_dir="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cclass">
-				<Option output="E:/Code/clion/cclass/cmake-build-debug/cclass.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Code/clion/cclass/cmake-build-debug"/>
+				<Option output="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/cclass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 cclass"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 cclass"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cclass/fast">
-				<Option output="E:/Code/clion/cclass/cmake-build-debug/cclass.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Code/clion/cclass/cmake-build-debug"/>
+				<Option output="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/cclass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 cclass/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 cclass/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/Code/clion/cclass/cmake-build-debug"/>
+				<Option working_dir="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/Code/clion/cclass/cmake-build-debug"/>
+				<Option working_dir="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/clion/cclass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Code/clion/cclass/Joseph.c">
+		<Unit filename="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/Joseph.c">
 			<Option target="cclass"/>
 		</Unit>
-		<Unit filename="E:/Code/clion/cclass/create.c">
+		<Unit filename="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/create.c">
 			<Option target="cclass"/>
 		</Unit>
-		<Unit filename="E:/Code/clion/cclass/main.c">
+		<Unit filename="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/main.c">
 			<Option target="cclass"/>
 		</Unit>
-		<Unit filename="E:/Code/clion/cclass/main.h">
+		<Unit filename="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/main.h">
 			<Option target="cclass"/>
 		</Unit>
-		<Unit filename="E:/Code/clion/cclass/CMakeLists.txt">
+		<Unit filename="E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

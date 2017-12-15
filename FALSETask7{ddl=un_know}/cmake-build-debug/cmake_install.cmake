@@ -1,4 +1,4 @@
-# Install script for directory: E:/Code/clion/cclass
+# Install script for directory: E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Code/clion/cclass/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Code/GitLibs/sa_task/FALSETask7{ddl=un_know}/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

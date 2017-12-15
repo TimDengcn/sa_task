@@ -1,106 +1,90 @@
 #include <stdio.h>
 #include <malloc.h>
 
-//this program is used to get a 2-d array and transpose it
+typedef struct oddnumber{
+    int *number;
+    int total;
+}oddnumber;
+
+typedef struct evennumber{
+    int *number;
+    int total;
+}evennumber;
 
 void bu_sort(int *, int);
 void swapint(int *, int *);
+void putinarray(oddnumber *,evennumber *,int);
 
-int main(void) {
-    int rows = 0;
-    int lines = 0;
+int main(){
+    int total;
+    printf("key in the number of the numbers :");
+    scanf("%d",&total);
 
-    printf("please entry the rows and lines :\n");
-    scanf("%d%d", &rows, &lines);
+    oddnumber *oddnumbers=(oddnumber *)malloc(sizeof(oddnumber));
+    oddnumbers->total=0;
+    oddnumbers->number=(int *)malloc(sizeof(int)*total);
+    evennumber *evennumbers=(evennumber *)malloc(sizeof(evennumber));
+    evennumbers->total=0;
+    evennumbers->number=(int *)malloc(sizeof(int)*total);
 
-    int (* arr)[lines]=(int (*)[lines])malloc(sizeof(int)*rows*lines);
 
-    printf("please entry the element of the array :\n");
+    int tempnumber;
 
-    //entry the keys of arr
 
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < lines; j++) {
-            scanf("%d", &arr[i][j]);
-        }
+    printf("key in the he numbers :\n");
+
+    for(int i=0;i<total;i++){
+        scanf("%d",&tempnumber);
+        putinarray(oddnumbers,evennumbers,tempnumber);
     }
 
-    printf("\norigin arr :\n");
+    bu_sort(oddnumbers->number,oddnumbers->total);
+    bu_sort(evennumbers->number,evennumbers->total);
 
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < lines; j++) {
-            printf("%d	", arr[i][j]);
-        }
-        printf("\n");
+    int *finalnumbers=(int *)malloc(sizeof(int)*total);
+    for(int i=0;i<oddnumbers->total;i++){
+        *(finalnumbers+i)=*(oddnumbers->number+i);
+    }
+    for(int i=0;i<evennumbers->total;i++){
+        *(finalnumbers+i+oddnumbers->total)=*(evennumbers->number+i);
     }
 
-    printf("\nafter transposition :\n");
+    printf("the final numbers are :\n");
 
-    //transposition
-
-    int (* traned_arr)[rows]=(int (*)[rows])malloc(sizeof(int)*rows*lines);
-
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < lines; j++) {
-            traned_arr[j][i]=arr[i][j];
-        }
+    for(int i=0;i<total;i++){
+        printf("%d\t",*(finalnumbers+i));
     }
+    return 0;
+}
 
-    for (int i = 0; i < lines; i++) {
-        for (int j = 0; j < rows; j++) {
-            printf("%d	", traned_arr[i][j]);
-        }
-        printf("\n");
+void putinarray(oddnumber *odds,evennumber *evens,int number){
+    if(number%2){
+        *(odds->number + odds->total)=number;
+        odds->total++;
+    }else{
+        *(evens->number + evens->total)=number;
+        evens->total++;
     }
-
-    int total[rows*lines];
-
-    //2D into 1D
-
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < lines; j++) {
-            total[i*lines + j] = arr[i][j];
-        }
-    }
-
-    bu_sort(total, rows*lines);
-    //1D into 2D
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < lines; j++) {
-            arr[i][j] = total[i*lines + j];
-        }
-    }
-
-    printf("\nafter being sorted :\n");
-
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < lines; j++) {
-            printf("%d	", arr[i][j]);
-        }
-        printf("\n");
-    }
-    getchar();
-    free(traned_arr);
-    free(arr);
 }
 
 void bu_sort(int *nums, int total) {
     int last, i;
     int lows = 0;
-    int high = total - 1;
+    int high = total-1;
     last = lows;
 
     while (lows < high) {
         for (i = lows; i < high; i++) {
-            if (*(nums + i) < *(nums + i + 1)) {
+            if (*(nums + i) > *(nums + i + 1)) {
                 swapint(nums + i, nums + i + 1);
                 last = i;
+
             }
         }
 
         high = last;
         for (i = high; i > lows; i--) {
-            if (*(nums + i) > *(nums + i - 1)) {
+            if (*(nums + i) < *(nums + i - 1)) {
                 swapint(nums + i, nums + i - 1);
                 last = i;
             }

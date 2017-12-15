@@ -1,3 +1,3 @@
-"D:\Program Files\JetBrains\apps\CLion\ch-0\172.4343.16\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cclass.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cclass.dir/objects.a @CMakeFiles\cclass.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\cclass.dir/objects.a -Wl,--no-whole-archive  -o cclass.exe -Wl,--out-implib,libcclass.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cclass.dir\linklibs.rsp
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cclass.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\cclass.dir/objects.a @CMakeFiles\cclass.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\cclass.dir/objects.a -Wl,--no-whole-archive  -o cclass.exe -Wl,--out-implib,libcclass.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cclass.dir\linklibs.rsp
