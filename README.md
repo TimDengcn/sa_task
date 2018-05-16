@@ -1,8 +1,8 @@
 # sa_task
 
-## 此git用于上传sa所布置任务
+## this repo is used to store the homework from AST.
 
-## 已上传任务：
+## already updated homeworks：
 
 - TASK2{ddl=10.9}
 - TASK3{ddl=10.16}
