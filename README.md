@@ -1,4 +1,4 @@
-# sa_task
+# AST Tasks
 
 ## this repo is used to store the homework from AST.
 
